@@ -1,0 +1,43 @@
+{
+  "name": "animal-house",
+  "version": "1.0.0",
+  "description": "3D 동물 키우기 웹 애플리케이션",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist",
+    "lint": "eslint src --ext .vue,.js",
+    "format": "prettier --write \"src/**/*.{vue,js,css}\""
+  },
+  "dependencies": {
+    "vue": "^3.4.0",
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "vite": "^5.0.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-vue": "^9.19.0",
+    "prettier": "^3.1.0",
+    "gh-pages": "^6.1.0"
+  },
+  "optionalDependencies": {
+    "@vueuse/core": "^10.7.0",
+    "stats.js": "^0.17.0"
+  },
+  "keywords": [
+    "vue",
+    "three.js",
+    "3d",
+    "pet",
+    "game"
+  ],
+  "author": "Chenjae",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chenjae-kr/AnimalHouse.git"
+  }
+}
